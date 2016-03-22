@@ -1,0 +1,36 @@
+{
+  "name": "es6-mbe",
+  "version": "1.0.0",
+  "description": "Modelling by example with ES6 and Cucumber JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run-script cucumber $1",
+    "cucumber": "export NODE_PATH=./src; node_modules/.bin/babel-node node_modules/.bin/cucumberjs $1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-acker/es6-mbe.git"
+  },
+  "keywords": [
+    "modelling",
+    "by",
+    "example",
+    "mbe",
+    "gherkin",
+    "ecma6",
+    "es6",
+    "javascript",
+    "cucumberjs",
+    "bdd"
+  ],
+  "author": "Jon Acker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jon-acker/es6-mbe/issues"
+  },
+  "homepage": "https://github.com/jon-acker/es6-mbe#readme",
+  "dependencies": {
+    "cucumber": "^0.9.5",
+    "node-babel": "^0.1.2"
+  }
+}
