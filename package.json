@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/jon-acker/es6-mbe#readme",
   "dependencies": {
+    "@mike182uk/nodespec": "^0.3.0",
     "cucumber": "^0.9.5",
     "node-babel": "^0.1.2"
   }
